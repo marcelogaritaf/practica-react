@@ -1,0 +1,20 @@
+
+body{
+    margin: 0;
+    padding-left: 10px;
+}
+img{
+    width: 30vw;
+    height: 30vw;
+    border-radius: 10%;
+}
+.swiper{
+    cursor: grab;
+}
+
+.swiper::before{
+    top: -795vw;
+}
+.swiper::after{
+    bottom: -795vw;
+}
