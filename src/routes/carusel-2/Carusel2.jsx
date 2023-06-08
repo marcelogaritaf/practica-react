@@ -8,11 +8,11 @@ import imagen6 from './assets/imagen6.jpg'
 import imagen7 from './assets/imagen7.jpg'
 import { Swiper, SwiperSlide } from 'swiper/react'
 
-
-import './stylesCarusel2.css'
+//import './styles.css'
 import 'swiper/css'
 
 const Carusel2 = () => {
+  
   const imagenes = [imagen1,imagen2,imagen3,imagen4,imagen5,imagen6,imagen7]
   return (
     <div>
